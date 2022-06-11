@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 a {
   color: #5777ba;
@@ -179,9 +180,8 @@ h6 {
 }
 
 #features h4 {
+  margin-left: 30px;
   font-size: 20px;
-  /* background-color: #0047e0; */
-  /* margin: 5px 0 10px 60px; */
 }
 
 #iconFeatures {
@@ -297,9 +297,13 @@ h6 {
 /* -------------------
 therapy section
 ------------------------ */
-
+#Money_Transfer_Therapy{
+  height: fit-content;
+  background-color: rgba(235, 163, 163, 0.096);
+}
 #therapy-bot {
-  margin-top: -2em;
+  margin-top: -3em;
+  max-width: 38em;
 }
 
 /*--------------------------------------------------------------
@@ -484,10 +488,11 @@ therapy section
   font-size: 18px;
   display: inline-block;
   color: #fff;
-  line-height: 1;
+  /* line-height: 2; */
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 10%;
+  font-family: "poppins" sans-serif;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -530,4 +535,18 @@ therapy section
     text-align: center;
     padding: 5px 0;
   }
+}
+
+/* --------------------------
+last footer section
+------------------------------*/
+#lastFooter{
+   margin: 0%;
+   padding: 0%;
+  background-color: #0047e0;
+}
+#lastFooter .container a{
+  text-decoration: none;
+  font-family: 'poppins' sans-serif;
+  color: rgb(255, 255, 255);
 }
