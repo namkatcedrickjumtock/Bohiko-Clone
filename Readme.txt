@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+##Clone of Bihikor website
 
-Template Name: Appland
-Template URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+### Team Echo
+- Namkat Cedrick
+- Tima Gilbert
