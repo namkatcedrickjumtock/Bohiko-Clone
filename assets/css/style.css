@@ -2,9 +2,14 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
+
 a {
   color: #5777ba;
   text-decoration: none;
+}
+
+#dwn {
+  background-color: #b18713;
 }
 
 a:hover {
@@ -76,8 +81,11 @@ h6 {
 */
 .navbar {
   padding: 0;
-  background-color: #0047e0;;
+  background-color: #0e59fa;
+  box-shadow: 1px 2px 2px #00000054;
+
 }
+
 
 .navbar .navbar-nav {
   margin: 0;
@@ -88,9 +96,11 @@ h6 {
   list-style: none;
   /* align-items: center; */
 }
-.navbar .navbar-nav li a{
+
+.navbar .navbar-nav li a {
   margin: 2px;
 }
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -297,10 +307,11 @@ h6 {
 /* -------------------
 therapy section
 ------------------------ */
-#Money_Transfer_Therapy{
+#Money_Transfer_Therapy {
   height: fit-content;
   background-color: rgba(235, 163, 163, 0.096);
 }
+
 #therapy-bot {
   margin-top: -3em;
   max-width: 38em;
@@ -540,12 +551,13 @@ therapy section
 /* --------------------------
 last footer section
 ------------------------------*/
-#lastFooter{
-   margin: 0%;
-   padding: 0%;
+#lastFooter {
+  margin: 0%;
+  padding: 0%;
   background-color: #0a3083c4;
 }
-#lastFooter .container a{
+
+#lastFooter .container a {
   text-decoration: none;
   font-family: 'poppins' sans-serif;
   color: rgb(255, 255, 255);
