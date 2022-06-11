@@ -1,17 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #585a61;
 }
 
-a {
-  color: #5777ba;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #7b94c9;
-  text-decoration: none;
-}
 
 h1,
 h2,
@@ -19,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -65,37 +55,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header
+# nav
 --------------------------------------------------------------*/
-#header {
-  transition: all 0.5s;
-  z-index: 997;
-  color: #ffff;
-  transition: all 0.5s;
-  /* padding: 15px 0; */
-  margin: 0%;
-  height: fit-content;
-}
 
-#header.header-scrolled {
-  /* background: #5777ba; */
-  background-color: #0e59fa;
-
-  /* background: rgba(255, 255, 255, 0.95); */
-  box-shadow: 0px 2px 15px rgba(14, 5, 5, 0.411);
-}
-
-#header .logo h1 {
-  font-size: 30px;
-  margin: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-#header .container .row img {
-  display: none;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -105,64 +67,21 @@ h6 {
 */
 .navbar {
   padding: 0;
+  background-color: #0047e0;;
 }
 
-.navbar ul {
+.navbar .navbar-nav {
   margin: 0;
   padding: 0;
+  /* background-color: #ff1629;; */
+
   display: flex;
   list-style: none;
-  align-items: center;
+  /* align-items: center; */
 }
-
-.navbar li {
-  position: relative;
+.navbar .navbar-nav li a{
+  margin: 2px;
 }
-
-.navbar a,
-.navbar a {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-family: "poppins", sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-  white-space: nowrap;
-  transition: 0.3s;
-}
-
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-  color: #ffffff;
-}
-
-.navbar .getstarted,
-.navbar .getstarted:focus {
-  background: #5777ba;
-  color: #fff;
-  padding: 12px 25px;
-  margin-left: 30px;
-  color: #fff;
-  line-height: 1;
-  border-radius: 50px;
-}
-
-.navbar .getstarted:hover,
-.navbar .getstarted {
-  background: #e4bc0a;
-  color: #fff;
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -415,6 +334,7 @@ therapy section
   line-height: 24px;
   font-weight: 500;
   padding: 0 30px;
+  text-decoration: none;
   outline: none;
   cursor: pointer;
 }
